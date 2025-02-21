@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/lvsIqRek)
-# Lab-2 assignment
+# Lab-2 
 
-Refer to [Lab-2 manual](https://nju-cn-course.gitbook.io/nju-computer-network-lab-manual/lab-2)
+使用 Switchyard 框架实现以太网学习交换机的核心功能。交换机还将处理用于自身的帧以及以太网目标地址为广播地址的帧。除此之外，还将实现三种不同的机制来清除转发表中的过时/过时条目。这将使学习开关能够适应网络拓扑的变化。
