@@ -1,3 +1,3 @@
 # Lab-3 assignment
 
-Refer to [Lab-3 manual](https://nju-cn-course.gitbook.io/nju-computer-network-lab-manual/ipv4-router/lab-3)
+响应分配给路由器上接口的地址的 ARP（地址解析协议）请求。
