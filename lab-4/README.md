@@ -1,4 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ZJndeOek)
 # Lab-4 assignment
 
-Refer to [Lab-4 manual](https://nju-cn-course.gitbook.io/nju-computer-network-lab-manual/ipv4-router/lab-4)
+1. 对没有已知以太网 MAC 地址的 IP 地址发出 ARP 请求。路由器通常必须向其他主机发送数据包，
+并且需要MAC地址才能这样做。
+2. 接收和转发到达链路并发往其他主机的数据包。转发过程的一部分是在转发信息库中执行地址查找
+（“最长前缀匹配”查找）。您最终将只在路由器中使用“静态”路由，而不是实现 RIP 或 OSPF 等动
+态路由协议。
