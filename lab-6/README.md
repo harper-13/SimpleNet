@@ -1,3 +1,10 @@
-# Lab-6 assignment
+# Lab-6
 
-Refer to [Lab-6 manual](https://nju-cn-course.gitbook.io/nju-computer-network-lab-manual/lab-6)
+在 Switchyard 中构建一个可靠的通信库，该库将由 3 个代理组成。在高层次上，blaster将通过
+middlebox向blastee发送数据包。由于IP只提供在主机之间传递数据包的尽力服务，这意味着一旦数据
+包进入网络，就会发生各种不好的事情：它们可能会丢失、任意延迟或重复。您的通信库将通过在
+blaster 和 blastee 上实现一些基本机制来提供额外的交付保证。
+您的可靠通信库将实现以下功能以提供额外的保证：
+1. blastee 上每个成功接收的数据包的 ACK 机制
+2. blaster上的固定尺寸滑动窗口。
+3. blaster上的粗略超时以重新发送非 ACK 数据包
